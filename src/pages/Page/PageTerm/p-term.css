@@ -1,0 +1,9 @@
+.p-term .single-box {
+}
+
+.p-term .single-box h6 {
+  color: var(--black1) !important;
+}
+.p-term .single-box p {
+  font-size: var(--font-14);
+}

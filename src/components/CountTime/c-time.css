@@ -1,0 +1,29 @@
+.c-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.c-time .single-count {
+  background: var(--white1);
+  border-radius: 100%;
+  padding: 1rem;
+  border: 4px solid var(--sky3);
+  height: 120px;
+  width: 120px;
+  margin: auto;
+  max-width: 100%;
+}
+.c-time .single-count h1 {
+  margin-bottom: 0;
+  color: var(--sky1);
+  font-weight: var(--fw-600);
+}
+.c-time .single-count p {
+  color: var(--dark1);
+  font-weight: var(--fw-600);
+}
+.c-time .single-count {
+}

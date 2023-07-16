@@ -1,0 +1,7 @@
+.b-details h1 {
+  color: var(--sky1);
+}
+.b-details .row {
+  color: var(--sky1);
+  height: 70vh;
+}

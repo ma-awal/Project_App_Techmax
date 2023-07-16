@@ -1,0 +1,33 @@
+.prop-price {
+}
+.prop-price h5 {
+}
+.prop-price h1 {
+  color: var(--sky1);
+}
+.prop-price button {
+  background: var(--sky1);
+  color: var(--white1) !important;
+  font-size: var(--font-link);
+  font-weight: var(--fw-600);
+  width: 100%;
+  margin-bottom: 1.3rem;
+  transition: var(--transition);
+}
+.prop-price ul li {
+  font-size: var(--font-link);
+  line-height: 1.9rem;
+}
+.prop-price ul li span {
+  color: var(--white1) !important;
+  background: var(--purple);
+  width: 16px;
+  height: 16px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.prop-price button:hover {
+  background: var(--sky2);
+}

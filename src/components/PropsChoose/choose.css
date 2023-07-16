@@ -1,0 +1,51 @@
+.p-choose {
+  background: var(--white2);
+}
+.p-choose.image-first {
+  background: var(--white1);
+}
+.p-choose .info {
+  font-size: var(--font-link);
+  color: var(--dark1);
+  position: relative;
+  padding: 0.6rem 0.7rem;
+  border-bottom-right-radius: 12px;
+  width: 46%;
+  max-width: 100%;
+  transition: 0.4s linear;
+  z-index: 100;
+  font-weight: var(--fw-600) !important;
+}
+.p-choose .info::after {
+  content: '';
+  top: 0;
+  width: 1%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(106, 21, 225, 0.929),
+    rgba(68, 19, 231, 0.834)
+  );
+
+  transition: 0.3s linear;
+  z-index: -100;
+}
+.p-choose .info.active {
+  background: linear-gradient(
+    to right,
+    rgba(106, 21, 225, 0.929),
+    rgba(68, 19, 231, 0.834)
+  ) !important;
+  color: white !important;
+}
+.p-choose .info:hover {
+  color: var(--white1) !important;
+}
+.p-choose .info:hover::after {
+  width: 100% !important;
+  color: white;
+}

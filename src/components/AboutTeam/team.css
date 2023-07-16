@@ -1,0 +1,61 @@
+.team .single-person {
+  position: relative;
+  z-index: 1--;
+  transition: var(--transitions);
+}
+
+.team .social-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(157, 53, 231, 0.67),
+    rgba(238, 69, 241, 0.324)
+  );
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+
+  transition: var(--transition);
+}
+.team .social-icons .link {
+  color: var(--sky2) !important;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: var(--white1) !important;
+  font-size: 18px;
+  transform: scale(0;);
+  transition: var(--transition);
+}
+.team .single-person:hover .social-icons {
+  opacity: 1;
+}
+
+.team .single-person:hover .social-icons .link {
+  transform: scale(1);
+}
+.team .social-icons .link:hover {
+  color: var(--white1) !important;
+  background: var(--sky2) !important;
+}
+
+.team .box h6 {
+  color: var(--dark) !important;
+  margin-bottom: 0;
+}
+.team .box p {
+  color: var(--sky2) !important;
+  font-weight: var(--fw-600) !important;
+}

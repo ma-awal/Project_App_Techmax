@@ -1,0 +1,41 @@
+.banner {
+  background: url('../../assets/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.banner .b-info h2 {
+  font-size: 35px;
+  font-weight: var(--fw-600);
+  color: var(--black1);
+  line-height: 2.6rem;
+}
+.banner .b-info h2 span {
+  color: var(--sky2) !important;
+}
+.banner .b-info p {
+  font-size: var(--font-14);
+  color: var(--dark);
+}
+.banner .b-btns .btn-link {
+  font-size: var(--font-link);
+  font-weight: var(--fw-600);
+  transition: var(--transition);
+  padding: 0.6rem 1.5rem;
+}
+
+.banner .b-btns .btn-link:nth-of-type(1) {
+  color: var(--sky1) !important;
+}
+.banner .b-btns .btn-link:nth-of-type(1):hover {
+  color: var(--white1) !important;
+  background: var(--sky2) !important;
+}
+.banner .b-btns .btn-link:nth-of-type(2) {
+  color: var(--white1) !important;
+  background: var(--sky1) !important;
+}
+
+.banner .b-btns .btn-link:nth-of-type(2):hover {
+  background: var(--sky2) !important;
+}

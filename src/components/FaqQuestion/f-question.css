@@ -1,0 +1,28 @@
+.accordion-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.accordion-item h6 {
+  margin: 0;
+  font-weight: var(--fw-600) !important;
+  /* font-size: var(--font-link) !important; */
+  color: var(--black1) !important;
+}
+
+.accordion-item h6.active {
+  color: var(--sky1) !important;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.accordion-content.show {
+  max-height: 500px; /* Adjust the value as needed */
+  transition: transform 0.5s ease;
+}

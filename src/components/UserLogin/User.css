@@ -1,0 +1,49 @@
+.user_login {
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+  background: url('../../assets/page-title-bg-2.jpg');
+}
+form h2 {
+  color: var(--dark1);
+  font-weight: var(--fw-500);
+}
+.user_login.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_login form {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+.user_login .sign_up {
+  color: var(--dark1);
+  font-size: var(--font-link);
+}
+.user_login .sign_up > a {
+  color: var(--dark1) !important;
+}
+.user_login form label {
+  font-size: var(--font-link);
+  color: var(--dark1);
+}
+
+.user_login form input {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: var(--font-14);
+  font-weight: var(--fw-400);
+}
+.user_login form button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: var(--white1);
+
+  background: var(--sky1);
+}
+.fs-5 {
+  color: var(--dark1);
+}

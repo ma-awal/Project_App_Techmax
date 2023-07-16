@@ -1,0 +1,6 @@
+.s-details .details .d-box h4 {
+  /* font-size: 33px !important; */
+  font-weight: var(--fw-600) !important;
+  line-height: 2.6rem;
+  color: var(--dark1) !important;
+}

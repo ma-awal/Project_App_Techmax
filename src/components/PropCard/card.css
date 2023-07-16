@@ -1,0 +1,21 @@
+.All {
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  max-height: 100%;
+}
+
+.All .box h1 {
+  color: var(--white1);
+  font-weight: var(--fw-600);
+}
+.All .box-link,
+.box-link a {
+  color: var(--white1);
+}
+
+.box-link a.active {
+  color: orange;
+}

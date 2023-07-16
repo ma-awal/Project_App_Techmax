@@ -1,0 +1,12 @@
+.count {
+  background: url('../../assets/banner-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
+}
+.count h1,
+h6 {
+  color: var(--white1) !important;
+  font-weight: var(--fw-600) !important;
+}

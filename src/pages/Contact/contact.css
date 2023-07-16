@@ -1,0 +1,16 @@
+.contact .info {
+  border-bottom: 2px solid var(--sky2);
+  padding: 1.4rem 1.4rem;
+}
+.contact .info ul li {
+  margin-bottom: 1.7rem;
+}
+
+.contact .info ul li h6 {
+  color: var(--dark1) !important;
+  margin-bottom: 8px;
+}
+.contact .info ul li p {
+  font-size: var(--font-14);
+  margin-bottom: 4px;
+}

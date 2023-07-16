@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  outline: none;
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  overflow-x: hidden;
+  font-size: 14.5px;
+}
+
+:root {
+  --white1: #ffffff;
+  --white2: #f8f8f8;
+  --black1: #333333;
+  --black2: #505060;
+  --dark1: #555;
+  --sky1: #5e87eb;
+  --sky3: #798ef5d6;
+  --sky2: #3e57d0;
+  --purple: #5445f8e8;
+
+  --font-14: 14px;
+  --font-link: 15px;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --transition: 0.3s linear;
+}
+
+p {
+  color: #333;
+  font-size: 14.5px !important;
+}
+
+h2 {
+  font-size: 33px !important;
+  font-weight: var(--fw-600) !important;
+  line-height: 2.6rem;
+  color: var(--dark1) !important;
+}
+h2 > span {
+  color: var(--sky2) !important;
+}
+
+.heading {
+  font-size: 35px !important;
+  color: var(--black2) !important;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 1140px !important;
+  max-width: 100%;
+}

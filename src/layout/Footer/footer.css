@@ -1,0 +1,97 @@
+.footer {
+  background: url('../../assets/banner-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem 0rem;
+}
+.footer .single-box h6 {
+  color: var(--white1) !important;
+  font-size: 20px !important;
+  font-weight: var(--fw-600) !important;
+  padding-bottom: 8px;
+  margin-bottom: 1rem;
+}
+.footer .single-box h6::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  color: var(--white1) !important;
+  background: var(--white1) !important;
+  border-radius: 25px;
+}
+.footer .single-box p {
+  color: var(--white1);
+  margin: 0rem;
+  margin-bottom: 0.4rem;
+}
+.footer .single-box li {
+  line-height: 30px;
+  list-style-type: none;
+}
+.footer .single-box a {
+  text-decoration: none;
+  color: var(--white1) !important;
+  font-weight: var(--fw-400) !important;
+  transition: var(--transition) !important;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: var(--font-14);
+}
+.footer .single-box a:hover {
+  text-decoration: none;
+  color: var(--color-green);
+}
+.footer .social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.footer .social-links a {
+  background: white !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 4px !important;
+  color: var(--sky1) !important;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+}
+.footer .social-links a:hover {
+  background: var(--sky1) !important;
+  color: var(--white1) !important;
+}
+.footer .input-form {
+  background: var(--white1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.3rem;
+  border-radius: 4px;
+}
+.footer .input-form input {
+  padding: 0.7rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: var(--font-14);
+  font-weight: var(--fw-500);
+}
+
+.footer .input-form .btn {
+  background: var(--sky2);
+  color: var(--white1);
+  padding: 0.7rem;
+  border-radius: 0;
+  font-size: var(--font-link);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media (max-width: 600px) {
+  .footer .single-box h6 {
+    font-size: 18px;
+  }
+}

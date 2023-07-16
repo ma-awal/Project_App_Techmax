@@ -1,0 +1,50 @@
+.p-card {
+  position: relative;
+  overflow: hidden;
+}
+.p-card .info {
+  position: absolute;
+  content: '';
+  width: 80%;
+  background: var(--white1) !important;
+  height: 35%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transitions);
+  flex-direction: column;
+  z-index: 100;
+  margin: auto auto 3rem auto;
+  transform: translateY(155%);
+  transition: var(--transition);
+  border-radius: 12px;
+  overflow: ;
+}
+.p-card .info h6 {
+  color: var(--dark1) !important;
+  margin-bottom: 0.5rem;
+}
+.p-card .info button {
+  color: var(--white1) !important;
+  background: var(--sky1);
+  width: 35%;
+  margin: 0 auto;
+  transition: var(--transition);
+  padding: 0;
+  padding: 0.2rem;
+}
+.p-card .info button a {
+  color: var(--white1) !important;
+  font-size: var(--font-link) !important;
+}
+
+.p-card:hover .info {
+  transform: translateY(0);
+}
+.p-card button:hover {
+  background: var(--sky2) !important;
+}

@@ -1,0 +1,12 @@
+.mission .m-image img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 60%;
+}
+
+@media (max-width: 992px) {
+  .mission .m-image img {
+    object-fit: cover;
+    max-width: 100%;
+  }
+}

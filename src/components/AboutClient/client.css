@@ -1,0 +1,28 @@
+.client {
+  background: var(--white2);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+}
+.client .single-client {
+  background: var(--white1);
+  padding: 1.5rem 0.7rem;
+  max-width: 95%;
+}
+
+.client .single-client img {
+  width: 100%;
+  max-width: 25%;
+}
+.client .single-client h6 {
+  color: var(--black2) !important;
+  font-size: 18px !important;
+  margin-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.slick-slide {
+  overflow-x: hidden !important;
+}

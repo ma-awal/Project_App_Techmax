@@ -1,0 +1,13 @@
+.h-card {
+  background: url('../../assets/banner-bg.jpg') no-repeat center/cover;
+}
+
+.h-card .box button {
+  background: var(--white1) !important;
+}
+
+.h-card .box button a {
+  color: var(--sky1) !important;
+  font-size: var(--font-link) !important;
+  font-weight: var(--fw-600);
+}

@@ -1,0 +1,44 @@
+.s-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-service span {
+  color: var(--purple) !important;
+  width: 70px;
+  height: 70px;
+  background: var(--white2);
+  font-size: 24px;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-service h6 {
+  color: var(--black1) !important;
+  margin: 0.8rem 0rem;
+}
+.s-service .link {
+  color: var(--purple) !important;
+  font-size: 16px;
+  font-weight: var(--fw-600);
+}
+
+.s-service:hover {
+  background: linear-gradient(
+    to right,
+    rgba(106, 21, 225, 0.929),
+    rgba(68, 19, 231, 0.834)
+  ) !important;
+}
+
+.s-service:hover h6 {
+  color: white !important;
+}
+.s-service:hover p {
+  color: white !important;
+}
+.s-service:hover .link {
+  color: white !important;
+}

@@ -1,0 +1,6 @@
+.h-slide {
+  background: var(--white2);
+}
+.h-slide .slide {
+  max-width: 95%;
+}
