@@ -21,7 +21,11 @@ const Header = () => {
         <Navbar.Brand href="/">
           <img src={logo} alt="logo" className="img-fluid" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-nav" onClick={toggleNavLinks}>
+        <Navbar.Toggle
+          aria-controls="navbar-nav"
+          onClick={toggleNavLinks}
+          collapseOnSelect
+        >
           <FaBars />
         </Navbar.Toggle>
 
