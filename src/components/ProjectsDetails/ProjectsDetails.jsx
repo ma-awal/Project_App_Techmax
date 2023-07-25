@@ -14,7 +14,7 @@ const ProjectsDetails = () => {
   return (
     <section className="p-details">
       <PropCard name={'Projects Details'} link={'Home'} img={img} />
-      <div className="container py-3 my-3 my-md-4  my-5">
+      <div className="container  py-3 py-md-4 py-lg-5 ">
         <ProjectsSlide data={location.state.imageDetails} />
         <div className="p-info mt-3 mt-md-4 mt-5">
           <h4 className="text-black fw-semibold mb-3">

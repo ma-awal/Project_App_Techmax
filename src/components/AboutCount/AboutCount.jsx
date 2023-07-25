@@ -28,8 +28,8 @@ const AboutCount = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="count d-flex align-items-center py-2 py-md-3 py-lg-4  ">
-      <div className="container">
+    <section className="count d-flex align-items-center py-2 py-md-4 py-lg-5  ">
+      <div className="container py-2 py-md-4 py-lg-5">
         <div className="row  ">
           {values.map((item, index) => (
             <div className="col-6 col-lg-3 text-center" key={index}>

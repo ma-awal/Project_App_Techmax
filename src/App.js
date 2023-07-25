@@ -17,6 +17,7 @@ import PageTerm from './pages/Page/PageTerm/PageTerm';
 import PagePolicy from './pages/Page/PagePolicy/PagePolicy';
 import UseLoading from './components/UseLoading/UseLoading';
 import Loader from './components/Loader/Loader';
+import Error from './pages/Error/Error';
 const App = () => {
   const isLoading = UseLoading();
   if (isLoading) {
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/term" element={<PageTerm />} />
         <Route path="/Privecy" element={<PagePolicy />} />
       </Route>
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 };

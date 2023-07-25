@@ -6,8 +6,8 @@ const PagePolicy = () => {
   return (
     <section className="">
       <PropCard name={'Privecy Policy'} link={'Home'} img={img} />
-      <div className="container p-term py-3 py-md-4 py-lg-5  my-3  ">
-        <div className="row">
+      <div className="container p-term py-3 py-md-4 py-lg-5     ">
+        <div className="row  py-3 py-md-4 py-lg-5 ">
           <div className="col">
             <div className="single-box mb-5">
               <h6>Introduction – Terms of use Agreement</h6>

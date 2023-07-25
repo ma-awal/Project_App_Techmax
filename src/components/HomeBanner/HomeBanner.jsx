@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import banner from '../../assets/home-font.png';
 const HomeBanner = () => {
   return (
-    <section className="banner py-3 py-md-4 py-lg-5 ">
-      <div className="container py-3 py-md-4 py-lg-5">
-        <div className="row gap-2 align-items-center justify-content-between">
+    <section className="banner py-3 py-md-4 py-lg-5       ">
+      <div className="container   ">
+        <div className="row gy-4 gap-2 align-items-center justify-content-between">
           <div className="col-12 col-lg-5">
             <div className="b-info">
               <h2 className="mb-3">

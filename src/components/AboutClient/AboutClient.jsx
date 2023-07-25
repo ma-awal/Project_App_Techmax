@@ -31,11 +31,11 @@ const AboutClient = ({ data }) => {
   };
 
   return (
-    <section className="client ">
-      <div className="container ">
+    <section className="client py-3 py-md-4 py-lg-5 ">
+      <div className="container py-3 py-md-4 py-lg-5 ">
         <div className="row ">
-          <h2 className="heading mb-3 mb-md-4 mb-lg-5">Our Clinet Say</h2>
-          <Slider className="py-4" {...settings}>
+          <h2 className="heading     ">Our Clinet Say</h2>
+          <Slider className="py-3 py-md-4 py-lg-5" {...settings}>
             {data.map((client) => {
               const { id, rating, img, name, title, comment } = client;
               return (

@@ -19,7 +19,7 @@ const ServiceData = [
     id: uuidv4(),
     icon: <FaStar />,
     img: servcie,
-    title1: 'IT Solution',
+    title1: 'Web Development',
     title2: 'Web Designing Services',
     title3: 'Web Development Services',
     info1:
@@ -31,7 +31,7 @@ const ServiceData = [
     id: uuidv4(),
     icon: <FaStar />,
     img: servcie,
-    title1: 'IT Solution',
+    title1: 'Networking Services',
     title2: 'Web Designing Services',
     title3: 'Web Development Services',
     info1:
@@ -43,7 +43,7 @@ const ServiceData = [
     id: uuidv4(),
     icon: <FaStar />,
     img: servcie,
-    title1: 'IT Solution',
+    title1: 'SEO Optimization',
     title2: 'Web Designing Services',
     title3: 'Web Development Services',
     info1:
@@ -55,7 +55,7 @@ const ServiceData = [
     id: uuidv4(),
     icon: <FaStar />,
     img: servcie,
-    title1: 'IT Solution',
+    title1: 'App Optimization',
     title2: 'Web Designing Services',
     title3: 'Web Development Services',
     info1:
@@ -67,7 +67,7 @@ const ServiceData = [
     id: uuidv4(),
     icon: <FaStar />,
     img: servcie,
-    title1: 'IT Solution',
+    title1: 'Data Recovery',
     title2: 'Web Designing Services',
     title3: 'Web Development Services',
     info1:

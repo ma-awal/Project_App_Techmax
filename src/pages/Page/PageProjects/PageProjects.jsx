@@ -30,8 +30,8 @@ const PageProjects = () => {
     <main>
       <PropCard name={'Projects'} link={'Home'} img={img} />
 
-      <section className="p-projects py-3 py-md-4 py-lg-5 my-2 my-md-4  ">
-        <div className="container">
+      <section className="p-projects py-3 py-md-4 py-lg-5 ">
+        <div className="container py-3 py-md-4 py-lg-5">
           <div className="row">
             {currentCards.map((card) => (
               <ProjectsCard key={card.id} data={card} />
@@ -50,7 +50,9 @@ const PageProjects = () => {
                 key={index}
                 onClick={() => goToPage(index + 1)}
                 className={`pagination-button btn ${
-                  currentPage === index + 1 ? 'active btn border' : ''
+                  currentPage === index + 1
+                    ? 'active btn text-white bg-info border'
+                    : ''
                 }`}
               >
                 {index + 1}

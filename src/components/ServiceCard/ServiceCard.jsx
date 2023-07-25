@@ -4,9 +4,9 @@ import './s-card.css';
 import { Link } from 'react-router-dom';
 const ServiceCard = ({ data }) => {
   return (
-    <section className="s-card py-3   my-3 my-md-4 my-lg-5">
-      <div className="container">
-        <div className="row gy-3">
+    <section className="s-card py-3 py-md-4 py-lg-5    ">
+      <div className="container py-3 py-md-4 py-lg-5 ">
+        <div className="row gy-3 gy-lg-4">
           {data.map((item) => {
             const { id, icon, img, title1, title2, title3, info1, info2 } =
               item;

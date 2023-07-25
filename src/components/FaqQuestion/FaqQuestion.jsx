@@ -10,7 +10,7 @@ const FaqQuestion = ({ FaqData }) => {
   };
 
   return (
-    <div>
+    <div className="py-3 py-md-4 py-lg-5">
       {FaqData.map((item, index) => (
         <div key={index} className="border-bottom mb-3">
           <div

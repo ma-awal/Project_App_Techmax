@@ -4,8 +4,8 @@ import './team.css';
 import { Link } from 'react-router-dom';
 const Team = ({ data }) => {
   return (
-    <section className="team  my-3 my-md-4 my-lg-5">
-      <div className="container">
+    <section className="team  py-3 py-md-4 py-lg-5">
+      <div className="container py-3 py-md-4 py-lg-5">
         <h2 className="heading mb-5">Expert Team Member</h2>
         <div className="row">
           {data.map((perosn) => {

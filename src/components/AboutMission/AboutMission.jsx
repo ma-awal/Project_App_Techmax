@@ -4,8 +4,8 @@ import mission from '../../assets/about.jpg';
 import Progressbar from '../Progressbar/Progressbar';
 const AboutMission = () => {
   return (
-    <section className="mission my-5 py-2 py-md-4 m py-lg-5">
-      <div className="container">
+    <section className="mission   py-2 py-md-4 m py-lg-5">
+      <div className="container py-2 py-md-4 m py-lg-5">
         <div className="row align-items-center    ">
           <div className="col-12 col-lg-6">
             <div className="m-info">

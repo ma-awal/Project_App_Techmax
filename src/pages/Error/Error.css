@@ -1,0 +1,21 @@
+.Error {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.Error h1 {
+  color: var(--sky1) !important;
+}
+
+.Error button {
+  background: var(--sky1) !important;
+}
+.Error button a {
+  color: var(--white1) !important;
+}

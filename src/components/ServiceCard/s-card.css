@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: var(--transition) !important;
 }
 
 .s-service span {
@@ -25,7 +26,7 @@
   font-weight: var(--fw-600);
 }
 
-.s-service:hover {
+.s-card .s-service:hover {
   background: linear-gradient(
     to right,
     rgba(106, 21, 225, 0.929),

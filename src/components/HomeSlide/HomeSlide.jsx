@@ -13,7 +13,7 @@ const HomeSlide = ({ data }) => {
     cssEase: 'linear',
   };
   return (
-    <section className="  h-slide">
+    <section className="  h-slide py-3 py-md-4 py-lg-5">
       <div className="container">
         <div className="row">
           <Slider className="py-3 py-md-4 py-lg-5" {...settings}>

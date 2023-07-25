@@ -6,10 +6,8 @@ const PropsChoose = ({ data, imageFirst }) => {
   const pChooseColor = imageFirst ? 'p-choose image-first' : 'p-choose';
 
   return (
-    <section
-      className={`py-3 py-md-4 py-lg-5   my-3 my-md-4 my-lg-5 ${pChooseColor}`}
-    >
-      <div className="container">
+    <section className={`py-3 py-md-4 py-lg-5  ${pChooseColor}`}>
+      <div className="container py-3 py-md-4 py-lg-5">
         <div className="row align-items-center justify-content-between">
           {imageFirst ? (
             <>

@@ -3,6 +3,10 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  min-height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .banner .b-info h2 {
   font-size: 35px;

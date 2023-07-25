@@ -3,10 +3,17 @@ import './b-card.css';
 import { BiSolidUser } from 'react-icons/bi';
 import { MdOutlineDateRange } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-const BlogCard = ({ BlogData }) => {
+const BlogCard = ({ BlogData, logic }) => {
   return (
-    <section className="b-card py-3 py-md-4 py-lg-5 my-3 my-md-4 my-lg-5   ">
-      <div className="container">
+    <section className="b-card py-3 py-md-4 py-lg-5   ">
+      <div className="container  py-3 py-md-4 py-lg-5 ">
+        {logic ? (
+          <h2 className="text-center mb-3 mb-md-4 mb-lg-5">
+            Recent Blog & Article
+          </h2>
+        ) : (
+          ''
+        )}
         <div className="row gy-4 gy-lg-5">
           {BlogData.map((item) => {
             return (

@@ -31,11 +31,8 @@ const Home = () => {
       <AboutTeam data={TeamData} />
       <AboutClient data={ClientData} />
       <HomeCard />
-      <>
-        <h2 className="text-center mb-0 mt-5">Recent Blog & Article</h2>
-        <BlogCard BlogData={newBlogData} />
-        <HomeSlide data={TrustData} />
-      </>
+      <BlogCard BlogData={newBlogData} logic={'true'} />
+      <HomeSlide data={TrustData} />
     </>
   );
 };

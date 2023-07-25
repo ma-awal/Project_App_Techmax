@@ -18,6 +18,12 @@ body {
   font-size: 14.5px;
 }
 
+.container {
+  max-width: 1140px !important;
+  width: 100% !important;
+  margin: auto;
+}
+
 :root {
   --white1: #ffffff;
   --white2: #f8f8f8;
@@ -28,7 +34,6 @@ body {
   --sky3: #798ef5d6;
   --sky2: #3e57d0;
   --purple: #5445f8e8;
-
   --font-14: 14px;
   --font-link: 15px;
   --fw-400: 400;
@@ -58,9 +63,4 @@ h2 > span {
   color: var(--black2) !important;
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.container {
-  width: 1140px !important;
-  max-width: 100%;
 }
