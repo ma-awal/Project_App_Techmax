@@ -1,5 +1,5 @@
 .footer {
-  background: url('../../assets/banner-bg.jpg');
+  background: url('../../assets/banner.png');
   background-repeat: no-repeat;
   background-position: center;
   padding: 3rem 0rem;
@@ -28,7 +28,7 @@
   margin-bottom: 0.4rem;
 }
 .footer .single-box li {
-  line-height: 30px;
+  line-height: 26px;
   list-style-type: none;
 }
 .footer .single-box a {
@@ -48,7 +48,6 @@
 .footer .social-links {
   display: flex;
   gap: 1.5rem;
-  margin-top: 2rem;
 }
 .footer .social-links a {
   background: white !important;
@@ -81,15 +80,6 @@
   font-weight: var(--fw-500);
 }
 
-.footer .input-form .btn {
-  background: var(--sky2);
-  color: var(--white1);
-  padding: 0.7rem;
-  border-radius: 0;
-  font-size: var(--font-link);
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
 @media (max-width: 600px) {
   .footer .single-box h6 {
     font-size: 18px;

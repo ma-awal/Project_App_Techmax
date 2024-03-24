@@ -15,8 +15,6 @@ const Footer = () => {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco
-                consectetur laboris.
               </p>
               <div className="social-links   ">
                 <a
@@ -63,18 +61,6 @@ const Footer = () => {
               <p>
                 <strong>Address: </strong>4035 Heavens, Los Angeles, California
               </p>
-              <div className="input-form ">
-                <input
-                  type="email"
-                  className="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter your email"
-                />
-                <button type="submit" className="btn">
-                  Subscribe
-                </button>
-              </div>
             </div>
           </div>
         </div>

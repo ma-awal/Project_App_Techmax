@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropCard from '../../../components/PropCard/PropCard';
-import img from '../../../assets/page-title-bg-3.jpg';
+import img from '../../../assets/banner.png';
 import ProjectsData from '../../../data/ProjectsData';
 import ProjectsCard from '../../../components/ProjectsCard/ProjectsCard';
 import './p-projects.css';

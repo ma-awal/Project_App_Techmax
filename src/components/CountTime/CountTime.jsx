@@ -41,7 +41,7 @@ const CountTime = () => {
   }, []);
 
   return (
-    <div className="c-time mt-4">
+    <div className="c-time mt-4 d-flex align-items-center justify-content-center justify-content-sm-between">
       <div className="single-count">
         <h1> {countdown.days}</h1>
         <p>Days</p>

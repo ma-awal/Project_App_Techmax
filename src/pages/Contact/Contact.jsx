@@ -1,6 +1,6 @@
 import React from 'react';
 import PropCard from '../../components/PropCard/PropCard';
-import img from '../../assets/page-title-bg.jpg';
+import img from '../../assets/banner.png';
 import ContactForm from '../../components/ContactFrom/ContactForm';
 import './contact.css';
 

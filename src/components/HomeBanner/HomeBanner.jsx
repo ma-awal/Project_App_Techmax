@@ -10,10 +10,9 @@ const HomeBanner = () => {
           <div className="col-12 col-lg-5">
             <div className="b-info">
               <h2 className="mb-3">
-                Encourage innovation with trusted{' '}
-                <span>Technology Solutions</span>
+                Encourage innovation with trusted Technology Solutions
               </h2>
-              <p className="mb-2">
+              <p className="mb-2 text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua,
                 magna aliqua. ipsum is simply dummy text of the printing.

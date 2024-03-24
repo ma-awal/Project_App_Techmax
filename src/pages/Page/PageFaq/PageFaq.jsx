@@ -1,6 +1,6 @@
 import React from 'react';
 import PropCard from '../../../components/PropCard/PropCard';
-import img from '../../../assets/page-title-bg-2.jpg';
+import img from '../../../assets/banner.png';
 import FaqQuestion from '../../../components/FaqQuestion/FaqQuestion';
 import FaqData from '../../../data/FaqData';
 const PageFaq = () => {

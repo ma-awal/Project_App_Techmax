@@ -9,7 +9,7 @@ import AboutClient from '../../components/AboutClient/AboutClient';
 import ClientData from '../../data/ClientData';
 import TrustData from '../../data/TrustData';
 import AboutTrust from '../../components/AboutTrust/AboutTrust';
-import img from '../../assets/page-title-bg.jpg';
+import img from '../../assets/banner.png';
 const About = () => {
   return (
     <main>

@@ -1,38 +1,11 @@
-.navbar {
-  background: transparent !important;
-}
-.navbar-toggler {
-  border: 0 !important;
-  outline: 0 !important;
-}
 .nav-items {
-  gap: 1.2rem;
+  gap: 1rem;
 }
-.nav-link {
+.nav-link,
+button {
   color: var(--black1) !important;
   font-size: var(--font-link) !important;
   font-weight: var(--fw-600) !important;
-}
-
-.custom-dropdown .dropdown-menu {
-  width: 200px;
-  border-radius: 0;
-  border: 0;
-  box-shadow: 0px 0px 3px 0.4px #00000034;
-}
-.custom-dropdown .dropdown-menu .dropItem {
-  display: block;
-  color: var(--black1) !important;
-  font-weight: var(--fw-600);
-  line-height: 1.8rem;
-  border-bottom: 0.2px solid #ccc;
-  padding: 0.5rem;
-  font-size: var(--font-link) !important;
-}
-.custom-dropdown .dropdown-menu .dropItem:hover {
-  transition: var(--transition) !important;
-  background: var(--white2) !important;
-  transform: translateX(2px) !important;
 }
 
 .login-btn {
@@ -43,8 +16,50 @@
   width: 100px;
   max-width: 100%;
 }
-
-.login-btn:hover {
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.789);
+  transform: translateX(-100%);
+  transition: 0.5s ease-in-out;
+}
+.sidebar.show {
+  transform: translateX(0);
+}
+.sidebar .sidebar-items {
+  background: var(--white1);
+  max-width: 314px;
+  height: 100%;
+  padding: 2rem;
+}
+.sidebar .sidebar-items .nav-link {
+  margin-bottom: 0.7rem;
+}
+.pages {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.789);
+  transform: translateX(100%);
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: end;
+}
+.pages.show {
+  transform: translateX(0);
+}
+.pages .page-link {
+  background: var(--white1) !important;
+  max-width: 310px;
+  height: 100%;
+  padding: 2rem;
+}
+/* .login-btn:hover {
   background: var(--sky2) !important;
 }
 .nav-link.show-black {
@@ -53,14 +68,4 @@
 .nav-link.show-white {
   color: var(--white1) !important;
 }
-@media (max-width: 768px) {
-  .nav-items {
-    gap: 0.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .nav-items {
-    gap: 0.2rem;
-  }
-}
+  */

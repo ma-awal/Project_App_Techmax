@@ -1,7 +1,7 @@
 import React from 'react';
 import './p-details.css';
 import { FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import img from '../../assets/page-title-bg-3.jpg';
+import img from '../../assets/banner.png';
 import { Link, useLocation } from 'react-router-dom';
 import PropCard from '../PropCard/PropCard';
 

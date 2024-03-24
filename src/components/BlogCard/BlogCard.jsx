@@ -37,8 +37,8 @@ const BlogCard = ({ BlogData, logic }) => {
                     </div>
                     <h6>{item.heading}</h6>
                     <p className="">{item.para.slice(0, 90)}</p>
-                    <button className="btn rounded-pill mb-4 px-3">
-                      <Link to={`/blog/${item.id}`}>Continue Reading</Link>
+                    <button className="btn rounded-0 mb-4 px-3">
+                      <Link to="/">Continue Reading</Link>
                     </button>
                   </div>
                 </div>

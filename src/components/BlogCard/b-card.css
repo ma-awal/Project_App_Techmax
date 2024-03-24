@@ -2,7 +2,7 @@
 }
 .b-card .single-blog .icon span {
   font-size: var(--font-14);
-  color: var(--sky1);
+  color: var(--black2);
   font-weight: var(--fw-600);
   margin: 0;
   padding: 0;
@@ -18,7 +18,7 @@
 .b-card .single-blog button a {
   color: var(--white1);
   font-size: var(--font-link);
-  font-weight: var(--fw-600);
+  font-weight: var(--fw-400);
 }
 .b-card .single-blog button:hover {
   background: var(--sky2);

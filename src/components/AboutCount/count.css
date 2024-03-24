@@ -1,12 +1,19 @@
 .count {
-  background: url('../../assets/banner-bg.jpg');
+  background: url('../../assets/banner.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 35vh;
+  height: 40vh;
 }
-.count h1,
-h6 {
-  color: var(--white1) !important;
+
+.count .single-count {
+  background: var(--white2) !important;
+  max-width: 200px;
+  margin: auto;
+  padding: 1.5rem 0rem;
+}
+.count .single-count h1,
+.count .single-count h6 {
+  color: var(--dark) !important;
   font-weight: var(--fw-600) !important;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './service.css';
-import img from '../../assets/page-title-bg-3.jpg';
+import img from '../../assets/banner.png';
 import PropCard from '../../components/PropCard/PropCard';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import PropsChoose from '../../components/PropsChoose/PropsChoose';

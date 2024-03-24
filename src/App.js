@@ -11,7 +11,7 @@ import PagePrice from './pages/Page/PagePrice/PagePrice';
 import PageFaq from './pages/Page/PageFaq/PageFaq';
 import PageComming from './pages/Page/PageComming/PageComming';
 import Blog from './pages/Blog/Blog';
-import BlogDetails from './components/BlogDetails/BlogDetails';
+
 import Contact from './pages/Contact/Contact';
 import PageTerm from './pages/Page/PageTerm/PageTerm';
 import PagePolicy from './pages/Page/PagePolicy/PagePolicy';
@@ -34,13 +34,14 @@ const App = () => {
         <Route path="/projects/:id" element={<ProjectsDetails />} />
         <Route path="/pricing" element={<PagePrice />} />
         <Route path="/faq" element={<PageFaq />} />
-        <Route path="/comming" element={<PageComming />} />
+
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:id" element={<BlogDetails />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/term" element={<PageTerm />} />
         <Route path="/Privecy" element={<PagePolicy />} />
       </Route>
+      <Route path="/comming" element={<PageComming />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );

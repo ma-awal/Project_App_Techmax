@@ -2,23 +2,13 @@ import React from 'react';
 import Slider from 'react-slick';
 import './h-slide.css';
 const HomeSlide = ({ data }) => {
-  const settings = {
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 2,
-    adaptiveHeight: true,
-    centerPadding: '60px',
-    autoplay: true,
-    autoplaySpeed: 3000,
-    cssEase: 'linear',
-  };
   return (
     <section className="  h-slide py-3 py-md-4 py-lg-5">
       <div className="container">
-        <div className="row">
-          <Slider className="py-3 py-md-4 py-lg-5" {...settings}>
-            {data.map((item) => {
-              return (
+        <div className="row g-3 justify-content-center">
+          {data.map((item) => {
+            return (
+              <div className="col-4 col-md-3 col-lg-2">
                 <div className="slide">
                   <img
                     src={item.img}
@@ -26,9 +16,9 @@ const HomeSlide = ({ data }) => {
                     alt="img"
                   />
                 </div>
-              );
-            })}
-          </Slider>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

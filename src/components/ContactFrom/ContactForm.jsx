@@ -64,8 +64,8 @@ const ContactForm = () => {
             rows="6"
           ></textarea>
         </div>
-        <div className=" mt-2 mx-auto ">
-          <button type="sumit" className="rounded-pill    btn   ">
+        <div className=" mt-2 text-end ">
+          <button type="sumit" className="rounded-0  btn   ">
             Send Message
           </button>
         </div>

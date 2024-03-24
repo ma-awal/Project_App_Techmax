@@ -9,7 +9,8 @@
   font-size: var(--font-14);
   font-weight: var(--fw-600);
   border: 0;
-  border-left: 2px solid var(--dark1);
+
+  border-radius: 0;
 }
 
 .c-form form .textarea .text_area {
@@ -20,10 +21,11 @@
   font-weight: var(--fw-600);
   resize: none !important;
   background: #f0eeee;
+  border-radius: 0;
 }
 .c-form form button {
   background: var(--sky1);
   color: white !important;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: var(--font-link);
 }

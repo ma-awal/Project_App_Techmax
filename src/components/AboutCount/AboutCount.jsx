@@ -30,11 +30,13 @@ const AboutCount = () => {
   return (
     <section className="count d-flex align-items-center py-2 py-md-4 py-lg-5  ">
       <div className="container py-2 py-md-4 py-lg-5">
-        <div className="row  ">
+        <div className="row  gy-4  ">
           {values.map((item, index) => (
-            <div className="col-6 col-lg-3 text-center" key={index}>
-              <h1>{item.initialValue}</h1>
-              <h6>{item.title}</h6>
+            <div className="col-6 col-sm-4 col-md-3 text-center" key={index}>
+              <div className="single-count">
+                <h1>{item.initialValue}</h1>
+                <h6>{item.title}</h6>
+              </div>
             </div>
           ))}
         </div>

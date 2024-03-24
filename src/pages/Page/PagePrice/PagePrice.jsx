@@ -3,7 +3,7 @@ import './p-price.css';
 import PropPrice from '../../../components/PropPrice/PropPrice';
 import PriceData from '../../../data/PriceData';
 import PropCard from '../../../components/PropCard/PropCard';
-import img from '../../../assets/page-title-bg-3.jpg';
+import img from '../../../assets/banner.png';
 
 const PagePrice = () => {
   return (
