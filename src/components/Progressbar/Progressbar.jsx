@@ -4,7 +4,7 @@ const Progressbar = ({ label, value }) => {
   const progressStyle = {
     width: `${value}%`,
     backgroundColor: `var(--sky1)`,
-    height: '.4rem',
+    height: '15px',
   };
 
   return (

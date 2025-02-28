@@ -22,7 +22,6 @@
   transform: translateY(155%);
   transition: var(--transition);
   border-radius: 12px;
-  overflow: ;
 }
 .p-card .info h6 {
   color: var(--dark1) !important;
@@ -44,7 +43,4 @@
 
 .p-card:hover .info {
   transform: translateY(0);
-}
-.p-card button:hover {
-  background: var(--sky2) !important;
 }

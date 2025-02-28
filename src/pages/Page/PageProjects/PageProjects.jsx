@@ -51,7 +51,7 @@ const PageProjects = () => {
                 onClick={() => goToPage(index + 1)}
                 className={`pagination-button btn ${
                   currentPage === index + 1
-                    ? 'active btn text-white bg-info border'
+                    ? 'active btn text-white bg-dark border'
                     : ''
                 }`}
               >
